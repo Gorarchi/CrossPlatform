@@ -28,8 +28,8 @@ class Program
                 switch (command)
                 {
                     case "version":
-                        Console.WriteLine("Author: Arcev Egor");
-                        Console.WriteLine("Version: 1.0");
+                        Console.WriteLine("Author: Artsev Yegor");
+                        Console.WriteLine("Version: 2.0");
                         break;
 
                     case "run":
