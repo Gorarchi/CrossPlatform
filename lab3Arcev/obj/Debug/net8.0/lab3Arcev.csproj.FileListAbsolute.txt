@@ -1,0 +1,14 @@
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\bin\Debug\net8.0\lab3Arcev.exe
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\bin\Debug\net8.0\lab3Arcev.deps.json
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\bin\Debug\net8.0\lab3Arcev.runtimeconfig.json
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\bin\Debug\net8.0\lab3Arcev.dll
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\bin\Debug\net8.0\lab3Arcev.pdb
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\obj\Debug\net8.0\lab3Arcev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\obj\Debug\net8.0\lab3Arcev.AssemblyInfoInputs.cache
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\obj\Debug\net8.0\lab3Arcev.AssemblyInfo.cs
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\obj\Debug\net8.0\lab3Arcev.csproj.CoreCompileInputs.cache
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\obj\Debug\net8.0\lab3Arcev.dll
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\obj\Debug\net8.0\refint\lab3Arcev.dll
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\obj\Debug\net8.0\lab3Arcev.pdb
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\obj\Debug\net8.0\lab3Arcev.genruntimeconfig.cache
+C:\Users\ivano\Desktop\KPP\Lab3Arcev\lab3Arcev\obj\Debug\net8.0\ref\lab3Arcev.dll
