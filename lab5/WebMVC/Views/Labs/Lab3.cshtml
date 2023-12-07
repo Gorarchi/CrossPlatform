@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Лабораторна 3";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div style="margin-top: 1%; margin-bottom: 1%;">
+            <h2>@ViewData["Title"]</h2>
+            <br />
+            <p>
+                <b>Завдання:</b>
+            </p>
+            <pre>
+Дано зважений граф. Визначити, чи є у ньому цикл негативної ваги.
+
+Вхідні дані
+У вхідному файлі INPUT.TXT у першому рядку записано число N (1 ≤ N ≤ 100) – кількість вершин графа. 
+У наступних N рядках знаходиться N чисел - матриця суміжності графа. Ваги ребер не перевищують за модулем 10000. Якщо ребра немає, відповідне значення дорівнює 100000.
+
+У вихідний файл OUTPUT.TXT виведіть "YES", якщо цикл існує, або "NO" в іншому випадку.
+            </pre>
+            <h2>Вхідні дані</h2>
+            <form method="POST">
+                <br />
+                <label>Шлях до вхідного файлу:</label>
+                <br />
+                <input type="text" name="input_file" style="width: 500px" />
+                <br />
+                <br />
+                <label>Шлях до вихідного файлу:</label>
+                <br />
+                <input type="text" name="output_file" style="width: 500px" />
+                <br />
+                <br />
+                <input type='submit' value='Виконати' />
+            </form>
+        </div>
+    </div>
+</div>

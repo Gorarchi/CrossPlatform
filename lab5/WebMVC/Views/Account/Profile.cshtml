@@ -1,0 +1,27 @@
+﻿@model WebMVC.Models.UserModel
+@{
+    ViewData["Title"] = "Акаунт";
+}
+
+<div class="container mt-5">
+    <div class="card col-md-6 mx-auto border-dark">
+        <div class="card-header text-center bg-dark text-white">
+            <h3 class="my-1">Особисті дані</h3>
+        </div>
+        <div class="card-body">
+            <div class="mx-auto mb-3 text-center">
+                <img src="@Model.AvatarImage" alt="Profile Image" class="rounded-circle img-fluid profile-image" />
+            </div>
+            <div class="mt-3 text-left">
+                <p class="profile-field"><b>Username:</b> @Model.Username</p>
+                <p class="profile-field"><b>Email:</b> @Model.Email</p>
+                <p class="profile-field"><b>Номер телефону:</b> @Model.Phone</p>
+                <p class="profile-field"><b>ПІБ:</b> @Model.FullName</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

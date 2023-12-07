@@ -1,0 +1,38 @@
+﻿@model WebMVC.Models.UserModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @if (User.Identity.IsAuthenticated)
+    {
+         
+
+<h2 class="text-center">Лабораторні роботи</h2>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="mb-2">
+                        <a href="@Url.Action("Lab1", "Labs")" class="btn btn-dark">Лабораторна 1</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="@Url.Action("Lab2", "Labs")" class="btn btn-dark">Лабораторна 2</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="@Url.Action("Lab3", "Labs")" class="btn btn-dark">Лабораторна 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    }
+    else
+    {
+            <h1 class="display-4">Ласкаво просимо</h1>
+            <p>Щоб взаємодіяти з лабораторними, будь ласка, увійдіть в акаунт</p>
+            <a class="btn btn-dark" href="@Url.Action("Login", "Account")">Увійти</a>
+    }
+</div>
